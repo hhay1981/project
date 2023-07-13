@@ -1,0 +1,14 @@
+name: project-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python">=3.10"
+  - jupyterlab
+  - ipykernel
+  - nb_conda_kernels
+  - scikit-learn=1.2.1
+  - pandas
+  - matplotlib
+prefix: C:\tools\miniconda3\envs\project-env
